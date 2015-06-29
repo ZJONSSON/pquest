@@ -21,7 +21,7 @@ module.exports = function(key,cache) {
   if (cache.cache) {
     jar = cache.cache.get(key)
       .then(function(d) {
-        d = JSON.parse(d);
+        d = JSON.parse(d.data);
   
         var j = request.jar();
         j._jar.store.idx = d;
