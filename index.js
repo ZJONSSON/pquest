@@ -73,7 +73,7 @@ module.exports = function(key,cache) {
     })
     .then(function(d) {
       if (cache.cache)
-        cache.cache.set(key,JSON.stringify(req.jar._jar.store.idx));
+        cache.cache.set(key,JSON.stringify(req.jar._jar.store.idx),{upsert:true});
       return d;
     });
   }
