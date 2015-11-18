@@ -33,6 +33,8 @@ function validateLogin(res,retry) {
 
 // Now we can send a request knowing we will be logged in, if we aren't already
 pquest({url:'http://testsite/myaccount',fn:validateLogin})
-  .then(console.log);
+  .then(function(res) {
+    console.log(res.body);
+  });
 ```
 
