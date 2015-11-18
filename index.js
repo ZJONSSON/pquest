@@ -65,7 +65,6 @@ module.exports = function(key,cache) {
       for (var key in headers)
         req.headers[key] = req.headers[key] || headers[key];
 
-      req.headers = headers;
       return prequest(req);
     })
     .spread(function(res,d) {
