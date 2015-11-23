@@ -1,5 +1,3 @@
-pre-release. 
-
 pquest is a wrapper around the popular [request](https://www.npmjs.org/package/request) client that provides the following out-of-the-box:
 
 #### Request Promisified

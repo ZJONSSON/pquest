@@ -67,7 +67,7 @@ module.exports = function(key,cache) {
 
       return prequest(req);
     })
-    .spread(function(res,d) {
+    .spread(function(res) {
       return (req.fn) ? req.fn(res,retry) : res;
     })
     .then(function(d) {
