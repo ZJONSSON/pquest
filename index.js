@@ -1,7 +1,7 @@
 var Promise = require('bluebird'),
     request = require('request'),
     prequest = Promise.promisify(request),
-    tough = require('request/node_modules/tough-cookie');
+    tough = require('tough-cookie');
 
 var defaultHeaders = {
   'accept':'application/json, text/javascript, */*; q=0.01',

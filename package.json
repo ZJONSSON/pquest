@@ -15,6 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "bluebird": "^2.9.27",
-    "request": "^2.57.0"
+    "request": "^2.57.0",
+    "tough-cookie": "^2.2.1"
   }
 }
