@@ -1,6 +1,6 @@
 {
   "name": "pquest",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Promisified request with persistant cookies and retry",
   "main": "index.js",
   "scripts": {
@@ -10,11 +10,11 @@
     "type": "git",
     "url": "http://github.com/ZJONSSON/pquest.git"
   },
-  "main": "index.js",
   "author": "(c) Ziggy Jonsson (http://github.com/zjonsson/)",
   "license": "MIT",
   "dependencies": {
     "bluebird": "^2.9.27",
-    "request": "^2.57.0"
+    "request": "^2.57.0",
+    "tough-cookie": "^2.2.1"
   }
 }
