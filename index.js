@@ -1,6 +1,6 @@
 var Promise = require('bluebird'),
     request = require('request'),
-    prequest = Promise.promisify(request),
+    prequest = Promise.promisify(request,{multiArgs:true}),
     tough = require('tough-cookie');
 
 var defaultHeaders = {

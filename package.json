@@ -13,8 +13,8 @@
   "author": "(c) Ziggy Jonsson (http://github.com/zjonsson/)",
   "license": "MIT",
   "dependencies": {
-    "bluebird": "^2.9.27",
-    "request": "^2.57.0",
-    "tough-cookie": "^2.2.1"
+    "bluebird": "~3.3.1",
+    "request": "~2.69.0",
+    "tough-cookie": "~2.2.1"
   }
 }
