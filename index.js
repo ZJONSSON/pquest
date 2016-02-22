@@ -42,6 +42,8 @@ module.exports = function(key,cache) {
       .catch(function() {
         return request.jar();
       });
+
+    jar = Promise.resolve(jar);
   }
 
   function pquest(req) {
