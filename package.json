@@ -1,6 +1,6 @@
 {
   "name": "pquest",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Promisified request with persistant cookies and retry",
   "main": "index.js",
   "scripts": {
