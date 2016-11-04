@@ -57,7 +57,7 @@ module.exports = function(key,cache) {
     }
 
     return jar.then(function(j) {
-      req.jar = j;
+      req.jar = req.jar || j;
       req.gzip = true;
       req.followRedirects = true;
       req.method = req.method || 'GET';
