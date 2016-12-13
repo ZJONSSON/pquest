@@ -79,6 +79,10 @@ module.exports = function(key,cache) {
     });
   }
 
+  pquest.getJar = function() {
+    return jar;
+  };
+
   return pquest;
 };
 
